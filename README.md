@@ -6,5 +6,5 @@ This is just an home page redesigned for leaderclasses.com website.
    
 You can view the redesigned homepage in any of the two URLs below,
 
-       https://leaderclasses-homepage.web.app/
-       https://leaderclasses-homepage.firebaseapp.com/
+       <a hreh="https://leaderclasses-homepage.web.app/">https://leaderclasses-homepage.web.app/</a>
+       <a href="https://leaderclasses-homepage.firebaseapp.com/">https://leaderclasses-homepage.firebaseapp.com/</a>
