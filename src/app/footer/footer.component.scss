@@ -1,0 +1,37 @@
+
+.footer-container{
+    width: 100%;
+    .content-footer{
+        position: relative;
+        background-color: #4dc3ff;
+        color: white;
+        padding: 50px;
+        text-align: center;
+        display: flex;
+        .text-wrapper{
+            position: relative;
+            .heading{
+                font-size: 40px;
+                padding: 10px;
+            }
+            .heading-question{
+                font-size: 30px;
+                padding: 10px;
+            }
+            .content{
+                font-size: 20px;
+                font-weight: 300;
+                padding: 10px;
+            }
+            .contact-button{
+                margin: 20px auto;
+                padding: 0px;
+                border: 1px solid white;
+                color: #4dc3ff;
+                width: 80px;
+                border-radius: 5px;
+                background-color: white;
+            }
+        }
+    }
+}

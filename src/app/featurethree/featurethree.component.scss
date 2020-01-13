@@ -1,0 +1,41 @@
+.featurethree-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8vw;
+    flex-direction: column;    
+    padding-bottom: 40px;
+    .content{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        padding-left: 40px;
+        padding-right: 20px;       
+        font-weight: 400;
+        padding: 20px;
+    }
+}
+.image-prop{
+    width: 100px!important;
+    height: 100px!important;
+    margin: 10px;
+}
+.owl-theme .owl-nav [class*='owl-'] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: white;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.slide-container{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    width:90vw
+}

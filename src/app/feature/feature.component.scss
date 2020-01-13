@@ -1,0 +1,13 @@
+.features{
+    position:relative;
+    .heading{
+        font-size:30px;
+        color: rgba(0,0,0,0.7);
+        text-align: center;
+        padding: 20px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

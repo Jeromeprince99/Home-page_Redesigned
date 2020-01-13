@@ -1,0 +1,89 @@
+<div class="nav navbar navbar-expand-sm justify-content-between " style="background-color: #4dc3ff;">
+  <div>
+    <div class="nav-item" style="font-size:1.5rem; font-weight: lighter;">
+      LeaderClasses
+    </div>
+  </div>
+  <div style="position: relative; display: flex;">
+    <div class="nav-item" id="active" >
+      <a href="https://www.leaderclasses.com/about-us">
+      About
+      </a>
+    </div>
+    <div class="nav-item" id="active">
+      <a href="https://www.leaderclasses.com/faq">
+      FAQ
+      </a>
+    </div>
+    <div class="nav-item" id="active">
+      <a href="https://www.leaderclasses.com/membership">
+      Membership
+      </a>
+    </div>
+    <div class="nav-item" id="active">
+      <a href="https://www.leaderclasses.com/videos/career-acceleration-insights-video">
+      Videos
+      </a>
+    </div>
+    <div class="nav-item" id="active">
+      <a href="https://www.leaderclasses.com/campus-partners">
+      Campus Partners
+      </a>
+    </div>
+    <div class="nav-item" id="active">
+      <a href="https://www.leaderclasses.com/careers">
+      Career
+      </a>
+    </div>
+    <div class="nav-item" id="active">
+      <a href="https://www.leaderclasses.com/careers">
+      Login
+      </a>
+    </div>
+    <div class="nav-item" id="toggle" >
+      <img (click)="toggle()" class="hamburger-menu" src="../../assets/images/menu-button-black.svg">
+    </div>
+  </div>
+</div>
+
+<div  class="slide" [ngClass]="{'hide': !togglebool}">
+  <div style="position: relative;">
+    <div >
+      <div class="nav-item toggle-item">
+        <a href="https://www.leaderclasses.com/about-us">
+        About
+        </a>
+      </div>
+      <div class="nav-item toggle-item" >
+        <a href="https://www.leaderclasses.com/faq">
+        FAQ
+        </a>
+      </div> 
+      <div class="nav-item toggle-item">
+        <a href="https://www.leaderclasses.com/membership">
+        Membership
+        </a>
+      </div>
+      <div class="nav-item toggle-item" >
+        <a href="https://www.leaderclasses.com/videos/career-acceleration-insights-video">
+        Videos
+        </a>
+      </div>
+      <div class="nav-item toggle-item" >
+        <a href="https://www.leaderclasses.com/campus-partners">
+        Campus Partners
+        </a>
+      </div>
+      <div class="nav-item toggle-item" >
+        <a href="https://www.leaderclasses.com/careers">
+        Career
+        </a>
+      </div>
+      <div class="nav-item toggle-item" >
+        <a href="https://www.leaderclasses.com/careers">
+        Login
+        </a>
+      </div>
+    </div>
+</div>
+</div>
